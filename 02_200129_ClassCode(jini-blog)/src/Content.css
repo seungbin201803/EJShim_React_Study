@@ -1,0 +1,41 @@
+.content-area{
+    position:absolute;
+    background:blue;
+    width: 100%;
+    top:100px;
+    height: calc(100% - 100px);
+    display:flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  
+
+  
+.content01{
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    min-height: 1300px;
+
+    display:flex;
+    flex-wrap : wrap;
+
+  }
+  
+  .content02{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 1300px;
+  }
+  
+  .content03{
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+  }
+
+  .card{
+      background-color: red;
+
+      width:200px;
+      height:150px;
+      margin: 10px;
+  }

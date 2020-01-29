@@ -1,0 +1,16 @@
+
+.button{
+    background-color: rgb(170, 170, 170);
+    width: 80px;
+    height: 45px;
+    border-radius: 22.5px;
+    margin: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.button:hover{
+  background-color: rgb(117, 117, 117);
+}

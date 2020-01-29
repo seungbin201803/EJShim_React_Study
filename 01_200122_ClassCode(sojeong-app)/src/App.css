@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  position:absolute;  
+  background:green;
+
+  width: 100%;
+  height:100%;
+}
+
+.haha{
+  text-align: right;
+  background:purple;
+  position:absolute;   
+  /* position:fixed */
+  display: flex;
+  flex-direction: column;
+
+  width:100%;
+  height: 80px;
+  top:0%;
+}
+
+.contents{
+  background-color:aqua;
+  position:absolute;
+  width:100%;
+  height: calc(100%-80px);
+  top:80px;
+}
+
+.button1{
+  background-color:yellow;
+  color:black;  
+  border-radius:10px;
+  margin:10px;
+
+  width:80px;
+  height: 45px;
+}
+
+.button2{
+  background-color:yellow;
+  color:black;  
+
+  margin:10px;
+
+  width:80px;
+  height: 45px;
+}
+.button1:hover{
+  background-color: violet;
+}
+.button2:hover{
+  background-color: violet;
+}

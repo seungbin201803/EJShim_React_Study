@@ -1,0 +1,44 @@
+.App {
+  position: absolute;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  }
+
+.header{
+  background-color:rgb(207, 207, 207);
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  top: 0%;
+}
+
+
+.logo{
+  background-color:rgb(207, 207, 207);
+  width: 80px;
+  height: 45px;
+  margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.content00{
+  position: absolute;
+  background-color: rgb(255, 214, 214);
+  font-weight: 900;
+  font-style: italic;
+  color: rgb(48, 54, 48);
+  width: 100%;
+  height: 20px;
+  top: 80px;
+}
+
+
+
+  
+
+
