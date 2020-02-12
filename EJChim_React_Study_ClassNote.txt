@@ -1,0 +1,46 @@
+EJShim_React_Study
+
+1(200122). 시작 및 레이아웃
+
+###시작 설정
+0. 인터넷에서 Nodejs 설치
+1. Powershell 킴
+2. npm install -g create-react-app (-g:컴퓨터에 깔겠다/아무 경로에서나)
+3. 프로젝트 생성: create-react-app ehshim-blog (원하는 경로에)
+4. npm start (프로젝트 경로로 가서) → 크롬에 http://localhost:3000/ 켜짐. 
+한 번에 한 프로젝트만 켜짐. 
+5. 프로젝트경로/src/ 에서 App.js, App.css 에서 작업
+
+* create-react-app : 이 시스템에서 스크립트를 실행할 수 없으므로~ 오류:
+PS C:\Windows\system32> ExecutionPolicy      <-- 현재상태확인
+Restricted        <---- 모든 스크립트 막음
+PS C:\Windows\system32>
+PS C:\Windows\system32> Set-ExecutionPolicy Unrestricted
+PS C:\Windows\system32>
+PS C:\Windows\system32> ExecutionPolicy       <-- 다시 확인
+Unrestricted     <---- 모든 스크립트 허용으로 바뀐거 확인 됨.
+
+###레이아웃 만들기
+
+2(200129). 모듈화 및 질의응답
+###프로젝트 옮기는 법
+-프로젝트 폴더에서 ‘node_modules’ 폴더만 빼고 옮기거나 공유하면 됨.
+-프로젝트 경로에서 ‘npm install’ 하면 package.js 보고 자동으로 필요한 것들 설치함.
+
+###모듈화
+-React는 모듈화가 가능하다.
+-js파일, css파일 각각 만들고
+-js파일 기본 구조 따른다.
+-App에서 사용 가능. 속성도 줄 수 있다.
+
+###전체 Area 만들어서 content flex 하기
+-min-height : 최소 높이 설정되고, 내용이 넘치면 커짐.
+
+###Image 넣기
+-div의 background로 넣기
+
+###함수
+-함수를 만들면, button click 등에 사용할 수 있음.
+
+###SCSS
+
